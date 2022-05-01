@@ -1,0 +1,70 @@
+
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/img/rm373batch13-082.jpg');
+  background-size: 1690px auto;
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+
+}
+
+.container {
+  max-width: 50%;
+  margin: 50px auto;
+  background:rgba(255,255,255,0.55);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table input,
+table label,
+table button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: 400;
+}
+
+table input {
+  font-size: 30px;
+  height: 50px;
+  padding: 0 20px;
+  border-color: #9e9e9e;
+  border-style:double;
+}
+
+
+
+.calculadora {
+  width: 100%;
+}
+
+.display {
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #083457;
+  color: white;
+}
